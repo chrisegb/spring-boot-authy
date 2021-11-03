@@ -27,9 +27,9 @@ public class AuthyService {
 
         Users users = client.getUsers();
         User user = users.createUser(
-                "christian@brook.ai",
-                "554-879-4635",
-                "52"
+                "youremail@inauthy.com",
+                "your-phone-number",
+                "52"//country code
         );
 
         if (user.isOk()) {
